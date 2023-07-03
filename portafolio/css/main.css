@@ -147,5 +147,14 @@ section{
 }
 
 .home-content p{
-    
+    color: #bdbdbd;
+    line-height: 1.6;
+}
+
+.info-box{
+    display: inline-flex;
+    justify-content: space-betweens;
+    align-items: center;
+    width: 300px;
+    margin: 1rem;
 }
