@@ -193,6 +193,7 @@ section{
     border-radius: 5px;
     position: relative; overflow: hidden;
     z-index: 1;
+    border: 2px solid var(--hover-color) ;
 }
 
 a.btn:hover{
@@ -213,4 +214,26 @@ a.btn::before{
 
 a.btn:hover::before{
     width: 100%;
+}
+
+a.btn:nth-child(2){
+    background: var(--bg-color);
+    color: var(--hover-color)
+}
+
+a.btn:nth-child(2):hover{
+    color: var(--bg-color) ;
+}
+
+a.btn:nth-child(2)::before{
+    background: var(--hover-color);
+
+}
+
+.social-icons{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    height: 40px;
 }
